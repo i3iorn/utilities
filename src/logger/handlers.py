@@ -22,3 +22,4 @@ class FileLogHandler(logging.FileHandler):
         self.setLevel(level)
         if formatter:
             self.setFormatter(formatter)
+
